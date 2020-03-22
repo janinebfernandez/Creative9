@@ -1,4 +1,4 @@
-/**--CREATIVE9 CSS--**/
+/**--CREATIVE9 CSS - MAIN--**/
 
 body, html{
     width:100%;
@@ -64,8 +64,8 @@ h2{
     font-size:15px;
     font-weight:800;
     text-transform: uppercase;
-    padding:2px;
-    letter-spacing: 2px;
+    padding:5px 0;
+    letter-spacing: 3px;
 }
 
 /*****************/
@@ -81,4 +81,5 @@ footer{
     padding:5px;
     bottom:0;
     text-align: center;
+    clear:both;
 }

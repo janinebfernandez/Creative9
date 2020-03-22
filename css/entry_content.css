@@ -1,0 +1,63 @@
+/**--CREATIVE9 CSS - ENTRY CONTENT-**/
+#entries{
+    font-weight:600;
+    font-size:12px;
+}
+
+.triangle-left {
+	width: 0;
+	height: 0;
+	border-top: 25px solid transparent;
+	border-right: 50px solid #555;
+	border-bottom: 25px solid transparent;
+}
+.entry_content{
+    min-width:1200px;
+    background-color:black;
+}
+.entry_content li{
+    position:relative;
+    float:left;
+}
+
+.entry_thumb{
+    width:250px;
+    height:600px;
+    background-color:royalblue;
+}
+.entry_img{
+    width:900px;
+    height:450px;
+    background-color:whitesmoke;
+}
+.entry_des{
+    width:890px;
+    height:140px;
+    background-color:grey;
+    padding:5px;
+}
+.color_block{
+    height:30px;
+}
+.block_1{
+    background-color:black;
+    width:30px;
+    height:30px;
+    margin-right:10px;
+    border-radius: 5px;
+}
+.entry_text{
+    max-width:500px;
+    line-height:20px;
+}
+.entry_title{
+    font-size:20px;
+    letter-spacing: 3px;
+}
+
+.entry_block, .color_block, .entry_text, .entry_title{
+    float:right;
+    clear:both;
+    text-align:right;
+    padding:5px 0;
+}
