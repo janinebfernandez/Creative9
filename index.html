@@ -21,36 +21,45 @@
 <!--Javascript-->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <style>
+    #front_cover{
+        width:100%;
+        position:absolute;
+        margin:0 auto;
+        text-align:center;
+    }
+    #front_cover img{
+        width:600px;
+        height:750px;
+    }
     #welcome_sign{
-        background-color:orange;
         width:20%;
         float:left;
         padding-top:1%;
+        font-weight: bold;
+        position:fixed;
     }
     #home{
         font-weight:600;
         font-size:12px;
     }
-
     #front_img{
         height:720px;
     }
-
     #home_title{
         text-align: center;
         position:absolute;
         z-index:1;
         width: 99%;
-        background-color: rgba(80, 165, 80, 0.6);
         top:50%;
         letter-spacing: 5px;
-        font-size:50px;
+        font-size:80px;
     }
 </style>
 </head>
 
 <body>
     <div class="C9_wrapper">
+        <div id="front_cover"> <img src="images/fish-mark-edited.jpg"></div>
         <div id="welcome_sign">
             <p>Welcome</p>
         </div><!--welcome sign ENDS-->
