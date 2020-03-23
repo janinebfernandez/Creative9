@@ -28,12 +28,11 @@
         max-width: 600px;
         min-width: 600px;
         min-height:400px;
-        background-color:peru;
         margin:auto;
         padding:120px 0;
+        z-index:1;
     }
     #lrg_text{
-        background-color:pink;
         width:300px;
         height:300px;
         float:left;
@@ -43,8 +42,20 @@
         letter-spacing: 5px;
     }
     #sml_text{
-        background-color:powderblue;
         line-height:40px;
+    }
+
+    #front_cover{
+        width:100%;
+        position:absolute;
+        margin:0 auto;
+        text-align:left;
+        opacity:.2;
+        filter: grayscale(100%);
+    }
+    #front_cover img{
+        width:600px;
+        height:750px;
     }
 
 </style>
@@ -52,6 +63,7 @@
 
 <body>
     <div class="C9_wrapper">
+        <div id="front_cover"><img src="../images/fish-mark-edited.jpg"></div>
         <div class="page_title">
             <p>CREATIVE9</p>
         </div><!--page_title ENDS-->
