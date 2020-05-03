@@ -43,6 +43,15 @@ a:hover{
     height:100%;
 }
 
+.social_media{
+    width: 40px;
+    height: 150px;
+    right:0;
+    bottom:0;
+    position:fixed;
+    text-align: center;
+}
+
 /*****************/
 /***CONTENT CSS***/
 /*****************/
