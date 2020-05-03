@@ -34,10 +34,6 @@ a{
     text-decoration: none;
 }
 
-a:hover{
-    font-size:12px;
-}
-
 .content_wrapper{
     clear:both;
     height:100%;
@@ -50,8 +46,13 @@ a:hover{
     bottom:0;
     position:fixed;
     text-align: center;
+    margin-right:15px;
 }
 
+.social_media img{
+    width:2em;
+    margin-top:2em;
+}
 /*****************/
 /***CONTENT CSS***/
 /*****************/
