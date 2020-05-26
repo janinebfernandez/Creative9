@@ -13,7 +13,7 @@
 }
 .entry_content{
     min-width:1200px;
-    background-color:black;
+    /*background-color:black;*/
 }
 .entry_content li{
     position:relative;

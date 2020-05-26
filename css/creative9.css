@@ -1,4 +1,5 @@
 /**--CREATIVE9 CSS - MAIN--**/
+@media (min-width: 1025px) and (max-width: 1280px) {
 
 body, html{
     width:100%;
@@ -39,6 +40,35 @@ a{
     height:100%;
 }
 
+
+#front_cover{
+    width:100%;
+    position:absolute;
+    margin:0 auto;
+    text-align:center;
+    z-index:0;
+}
+
+#home_title{
+    text-align: center;
+    position:absolute;
+    z-index:1;
+    width: 99%;
+    top:50%;
+    letter-spacing: 5px;
+    font-size:80px;
+}
+
+
+ul li{
+    width:20%;
+    margin: 1%;
+    text-align: center;
+    display: inline-block;
+    padding:1px 1px 6px 1px;
+    border-radius:10px;
+}
+
 .social_media{
     width: 40px;
     height: 150px;
@@ -52,6 +82,15 @@ a{
 .social_media img{
     width:1.5em;
     margin-top:2em;
+}
+
+
+#welcome_sign{
+    width:20%;
+    float:left;
+    padding-top:1%;
+    font-weight: bold;
+    position:fixed;
 }
 /*****************/
 /***CONTENT CSS***/
@@ -88,3 +127,5 @@ footer{
     text-align: center;
     clear:both;
 }
+
+}/*MEDIA QUERY ENDS*/
