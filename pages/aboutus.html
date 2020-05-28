@@ -12,6 +12,7 @@
 <!--Stylesheet-->
 <link href="../css/reset.css" type="text/css" rel="stylesheet">
 <link href="../css/creative9.css" type="text/css" rel="stylesheet">
+<link href="../css/sidebar_nav.css" type="text/css" rel="stylesheet">
 <link href="../css/media-query.css" type="text/css" rel="stylesheet">
 <!--Nunito Font - Light 200-->
     <link href="https://fonts.googleapis.com/css?family=Nunito:200&display=swap" rel="stylesheet">
@@ -19,78 +20,32 @@
 
 <!--Javascript-->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="../js/sidebar.js"></script>
 <style>
-    #about_us{
-        font-weight:600;
-        font-size:12px;
-    }
-
-    #content_holder{
-        max-width: 600px;
-        min-width: 600px;
-        min-height:300px;
-        margin:auto;
-        padding:120px 0;
-        z-index:1;
-    }
-
-    #aboutus{
-        font-weight:600;
-        font-size:12px;
-    }
-
-    #lrg_text{
-        width:300px;
-        height:300px;
-        float:left;
-        font-size:70px;
-        text-align:right;
-        padding:5px 0;
-        letter-spacing: 5px;
-    }
-    #sml_text{
-        line-height:40px;
-    }
-
-    #front_cover{
-        width:100%;
-        position:absolute;
-        margin:0 auto;
-        text-align:left;
-        opacity:.2;
-        filter: grayscale(100%);
-        z-index:-1;
-    }
-    
-    #front_cover img{
-        width:600px;
-        height:750px;
-    }
-    #collab_mess{
-        text-align: center;
-        margin-bottom:100px;
-        font-weight:800;
-    }
+#aboutus{
+    font-weight:600;
+    font-size:12px;
+}
 
 </style>
 </head>
 
 <body>
     <div class="C9_wrapper">
-        <div id="front_cover"><img src="../images/fish-mark-edited.jpg"></div>
+        <div id="front_cover_aboutus"><img src="../images/fish-mark-edited.jpg"></div>
         <div class="page_title">
             <p>CREATIVE9</p>
         </div><!--page_title ENDS-->
-
+        <!--
         <div class="nav_wrapper">
             <li id="home"><a href="../index.html">Home</a></li>
             <li id="entries"><a href="entries.html">Entries</a></li>
-            <!--<li id="blend"><a href="blend.html">Blend</a></li>
-            <li id="collab"><a href="collaborations.html">Collaborations</a></li>-->
+            <li id="blend"><a href="blend.html">Blend</a></li>
+            <li id="collab"><a href="collaborations.html">Collaborations</a></li>
             <li id="store"><a href="https://teespring.com/stores/jix-creative9" target="_blank">Store</a></li>
             <li id="aboutus"><a href="aboutus.html">CREATIVE9</a></li>
-        </div><!--nav_wrapper ENDS-->
-
+        </div>--><!--nav_wrapper ENDS-->
+        
         <div class = "social_media">
             <a href="https://janinebfernandez.github.io/Portfolio/index.html#" target = "_blank"><img src="../images/icons/logo-2019-mini.png" alt="Janine B. Fernandez Logo"></a>
             <br><a href="https://www.instagram.com/j.ix.creative9" target = "_blank"><img src="../images/icons/instagram-icon.png" alt="CREATIVE9 Instagram"></a>
@@ -122,6 +77,17 @@
         
         
     </div><!--C9_wrapper ENDS-->
+<!--SIDEBAR NAV-->
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="../index.html">Home</a>
+        <a href="entries.html">Entries</a>
+        <a href="https://teespring.com/stores/jix-creative9">Store</a>
+        <a href="aboutus.html">About Us</a>
+      </div>
+      
+      <span class="nav_bars" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+<!--SIDEBAR NAV ENDS-->
 </body>
 <footer><p>Janine Fernandez - j.ix - CREATIVE9 - 2020</p></footer>
 </html>

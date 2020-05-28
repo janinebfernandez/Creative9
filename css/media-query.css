@@ -44,7 +44,11 @@
         line-height: 33px;
         z-index:2;
         padding: 15px;
+        height:100%;
+        overflow-y: scroll;
+        overflow-x: hidden;
     }
+
 
     .nav_wrapper {
         float: right;
@@ -64,6 +68,12 @@
         margin:0 auto;
         text-align:center;
         z-index:-1;
+    }
+
+    #front_cover img {
+        width: 100%;
+        height: auto;
+        margin-top: 10%;
     }
 
     #welcome_sign {
@@ -124,6 +134,15 @@
         letter-spacing: 3px;
     }
 
+    h2{
+        font-size:15px;
+        font-weight:800;
+        text-transform: uppercase;
+        padding:5px 0;
+        letter-spacing: 3px;
+        width: 110%;
+    }
+
     .content_wrapper {
         padding-top: 5em;
     }
@@ -136,9 +155,58 @@
     /**********************/
     /******ABOUT US********/
     /**********************/
-
+    #about_us{
+        font-weight:600;
+        font-size:12px;
+    }
+    
+    #content_holder{
+        max-width: 600px;
+        min-width: 200px;
+        min-height:300px;
+        margin:auto;
+        padding:160px 0;
+        z-index:1;
+    }
+    
     #lrg_text{
-        line-height:70px;
+        width: 300px;
+        height: 300px;
+        float: left;
+        font-size: 70px;
+        text-align: right;
+        padding: 5px 0;
+        letter-spacing: 5px;
+        line-height: 50px;
+    }
+    
+    #sml_text{
+        line-height: 30px;
+        text-align: left;
+        /*width: 250px;
+        margin-left: 10%;*/
+    }
+    
+    #front_cover_aboutus{
+        width:100%;
+        position:absolute;
+        margin:0 auto;
+        text-align:left;
+        opacity:.2;
+        filter: grayscale(100%);
+        z-index:-1;
+    }
+    
+    #front_cover_aboutus img{
+        width:600px;
+        height:750px;
+        margin-top: 15%;
+    }
+    
+    #collab_mess{
+        text-align: center;
+        margin-bottom:100px;
+        font-weight:800;
     }
 
     /**********************/
@@ -153,13 +221,23 @@
     }
 
     .entry_des {
-        width: 150px;
+        width: 160px;
         height: 140px;
         padding: 5px;
         float: left;
         left: 0;
         position: absolute;
-        margin: -30em 0 0 -16em;
+        margin: -30em 0 0 -25em;
+    }
+
+    ul li {
+        width: 24%;
+        margin: 0;
+        text-align: center;
+        display: block;
+        padding: 1px 1px 6px 1px;
+        border-radius: 10px;
+        float: left;
     }
 
     .prev_next{
@@ -219,7 +297,7 @@
     .C9_wrapper {
         width: 93%;
         padding:0 2% 0 0;
-        position: fixed;
+        position: relative;
         text-align:right;
         list-style: none;
         line-height: 33px;
@@ -227,6 +305,21 @@
         padding: 15px;
         height: 100%;
         overflow-y: scroll;
+        overflow-x: hidden;
+    }
+    .page_title {
+        z-index: 4;
+        position: fixed;
+        font-size: 2em;
+    }
+
+    h2{
+        font-size:15px;
+        font-weight:800;
+        text-transform: uppercase;
+        padding:5px 0;
+        letter-spacing: 3px;
+        width: 110%;
     }
 
     .nav_wrapper {
@@ -247,6 +340,12 @@
             margin:0 auto;
             text-align:center;
             z-index:-1;
+    }
+
+    #front_cover img {
+        width: 100%;
+        height: auto;
+        margin-top: 25%;
     }
     
     #home_title{
@@ -294,7 +393,7 @@
     footer{
         font-size:10px;
         margin: auto;
-        position: absolute;
+        position: relative;
         width: 97%;
         padding-bottom:20px;
         bottom:0;
@@ -303,7 +402,7 @@
     }
   
 
-        /**********************/
+    /**********************/
     /******ENTRIES********/
     /**********************/
 
@@ -367,5 +466,62 @@
         margin-top:20px;
         right:0;
     }
+
+/*****************/
+/****ABOUT US*****/
+/*****************/
+
+#about_us{
+    font-weight:600;
+    font-size:12px;
+}
+
+#content_holder{
+    max-width: 600px;
+    min-width: 200px;
+    min-height:300px;
+    margin:auto;
+    padding:120px 0;
+    z-index:1;
+}
+
+#lrg_text{
+    width: 300px;
+    height: 150px;
+    float: none;
+    font-size: 50px;
+    text-align: right;
+    padding: 30px 0;
+    letter-spacing: 5px;
+    line-height: 36.5px;
+}
+
+#sml_text{
+    line-height: 30px;
+    width: 250px;
+    margin-left: 10%;
+}
+
+#front_cover_aboutus{
+    width:95%;
+    position:absolute;
+    margin:0 auto;
+    text-align:left;
+    opacity:.2;
+    filter: grayscale(100%);
+    z-index:-1;
+}
+
+#front_cover_aboutus img{
+        width: 100%;
+        height: auto;
+        margin-top: 25%;
+}
+
+#collab_mess{
+    text-align: center;
+    margin-bottom:100px;
+    font-weight:800;
+}
   
 }/*MOBILE ENDS*/

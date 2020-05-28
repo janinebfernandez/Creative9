@@ -51,7 +51,7 @@
 }
 
 .entry_des{
-    width:890px;
+    width:800px;
     height:140px;
     padding:5px;
 }
@@ -75,13 +75,11 @@
     float:right;
 }
 
-.color_block{
-    height:30px;
-}
+
 .block_1{
     width:30px;
-    height:30px;
-    margin-right:10px;
+    height:25px;
+    margin-left:10px;
     border-radius: 5px;
 }
 .entry_text{
@@ -109,4 +107,9 @@
     clear:both;
     text-align:right;
     padding:5px 0;
+}
+
+.color_block{
+    width: 180px;
+    float: right;
 }
