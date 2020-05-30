@@ -13,6 +13,7 @@
 <link href="../../css/reset.css" type="text/css" rel="stylesheet">
 <link href="../../css/creative9.css" type="text/css" rel="stylesheet">
 <link href="../../css/entry_content.css" type="text/css" rel="stylesheet">
+<link href="../../css/sidebar_nav.css" type="text/css" rel="stylesheet">
 <link href="../../css/media-query.css" type="text/css" rel="stylesheet">
 <!--Nunito Font - Light 200-->
     <link href="https://fonts.googleapis.com/css?family=Nunito:200&display=swap" rel="stylesheet">
@@ -20,6 +21,7 @@
 
 <!--Javascript-->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="../../js/sidebar.js"></script>
 </head>
 <body>
     <div class="C9_wrapper">
@@ -27,14 +29,16 @@
             <p><a href="../entries.html">&#9664;Entries</a></p>
         </div><!--page_title ENDS-->
 
+        <!--
         <div class="nav_wrapper">
             <li id="home"><a href="../../index.html">Home</a></li>
             <li id="entries"><a href="../entries.html">Entries</a></li>
-            <!--<li id="blend"><a href="blend.html">Blend</a></li>
-            <li id="collab"><a href="collaborations.html">Collaborations</a></li>-->
+            <li id="blend"><a href="blend.html">Blend</a></li>
+            <li id="collab"><a href="collaborations.html">Collaborations</a></li>
             <li id="store"><a href="https://teespring.com/stores/jix-creative9" target="_blank">Store</a></li>
             <li id="aboutus"><a href="../aboutus.html">CREATIVE9</a></li>
-        </div><!--nav_wrapper ENDS-->
+        </div>
+        -->
 
         <div class = "social_media">
             <a href="https://janinebfernandez.github.io/Portfolio/index.html#" target = "_blank"><img src="../../images/icons/logo-2019-mini.png" alt="Janine B. Fernandez Logo"></a>
@@ -68,9 +72,19 @@
                 </li><!--entry_img ENDS-->
         </ul><!--entry_content ENDS-->
         </div><!--content_wrapper ENDS-->
-        
-        
     </div><!--C9_wrapper ENDS-->
+
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="../../index.html">Home</a>
+        <a href="../entries.html">Entries</a>
+        <a href="https://teespring.com/stores/jix-creative9">Store</a>
+        <a href="../aboutus.html">About Us</a>
+    </div>
+    
+    <span class="nav_bars" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+    <!--SIDEBAR NAV ENDS-->
+    
 </body>
 <footer><p>Janine Fernandez - j.ix - CREATIVE9 - 2020</p></footer>
 </html>

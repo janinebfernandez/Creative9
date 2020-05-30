@@ -729,7 +729,6 @@
     min-width: 200px;
     min-height:300px;
     margin:auto;
-    padding:120px 0;
     z-index:1;
 }
 
@@ -768,7 +767,7 @@
 
 #collab_mess{
     text-align: center;
-    margin-bottom:100px;
+    margin: 3em 1em;
     font-weight:800;
 }
   
