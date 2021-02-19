@@ -1,5 +1,5 @@
 /**--CREATIVE9 CSS - MAIN--**/
-@media (min-width: 1025px) and (max-width: 1280px) {
+@media (min-width: 1025px) {
 
 body, html{
     width:100%;
@@ -116,9 +116,10 @@ ul li{
 .page_title{
     float:left;
     padding-top:1%;
-    font-size: 25px;
+    font-size: 15px;
     text-transform: uppercase;
     letter-spacing: 3px;
+    top:0;
 }
 
 h2{
@@ -155,6 +156,7 @@ h2{
     text-align:right;
     padding:5px 0;
     letter-spacing: 5px;
+    line-height:70px;
 }
 #sml_text{
     line-height:40px;
